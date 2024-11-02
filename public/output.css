@@ -556,16 +556,6 @@ video {
   display: none;
 }
 
-.size-56{
-  width: 14rem;
-  height: 14rem;
-}
-
-.bg-purple{
-  --tw-bg-opacity: 1;
-  background-color: hsl(292 16% 49% / var(--tw-bg-opacity));
-}
-
 .font-body{
   font-family: Work Sans;
 }
