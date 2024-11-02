@@ -11,7 +11,12 @@ module.exports = {
     fontFamily: {
       body: ["Work Sans"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        desktop: "url('../src/assets/bg-desktop.svg')",
+        mobile: "url('../src/assets/bg-mobile.svg')",
+      },
+    },
   },
   plugins: [],
 };

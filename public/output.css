@@ -556,6 +556,92 @@ video {
   display: none;
 }
 
+.flex{
+  display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.hidden{
+  display: none;
+}
+
+.h-28{
+  height: 7rem;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.w-10\/12{
+  width: 83.333333%;
+}
+
+.w-11\/12{
+  width: 91.666667%;
+}
+
+.w-\[87\%\]{
+  width: 87%;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.place-self-center{
+  place-self: center;
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.bg-purple{
+  --tw-bg-opacity: 1;
+  background-color: hsl(292 16% 49% / var(--tw-bg-opacity));
+}
+
+.bg-\[\#BD93BD\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(189 147 189 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#89937C\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(137 147 124 / var(--tw-bg-opacity));
+}
+
+.bg-mobile{
+  background-image: url('../src/assets/bg-mobile.svg');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-auto{
+  background-size: auto;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
 .font-body{
   font-family: Work Sans;
+}
+
+@media (min-width: 1280px){
+  .xl\:bg-desktop{
+    background-image: url('../src/assets/bg-desktop.svg');
+  }
 }
