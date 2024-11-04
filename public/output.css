@@ -605,6 +605,11 @@ video {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
+.bg-pink-100{
+  --tw-bg-opacity: 1;
+  background-color: hsl(275 100% 97% / var(--tw-bg-opacity));
+}
+
 .bg-mobile{
   background-image: url('../src/assets/bg-mobile.svg');
 }
@@ -627,6 +632,11 @@ video {
   padding-bottom: 1.75rem;
 }
 
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .font-body{
   font-family: Work Sans;
 }
@@ -634,6 +644,11 @@ video {
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold{
