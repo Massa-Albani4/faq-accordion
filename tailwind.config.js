@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     colors: {
       white: "hsl(0, 0%, 100%)",
-      "white-200": "hsl(275, 100%, 97%)",
-      purple: "hsl(292, 16%, 49%)",
+      "pink-100": "hsl(275, 100%, 97%)",
       "purple-800": "hsl(292, 42%, 14%)",
     },
     fontFamily: {
