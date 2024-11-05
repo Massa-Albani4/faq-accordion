@@ -7,42 +7,52 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body
-    class="bg-pink-100 flex h-screen items-center justify-center bg-mobile bg-auto bg-no-repeat font-body xl:bg-desktop"
+    class="flex h-screen flex-col items-center justify-center bg-pink-100 bg-mobile bg-contain bg-no-repeat font-body text-lg xl:bg-desktop"
   >
     <main
-      class="flex w-[87%] flex-col items-center justify-center rounded-lg bg-white px-5 py-6 text-purple-800"
+      class="relative top-24 mb-36 flex w-[87%] flex-col items-center justify-center rounded-lg bg-white p-5 text-purple-800"
     >
       <div class="flex w-full flex-row items-start">
         <img src="../src/assets/icon-star.svg" alt="" />
-        <h1 class="ml-6 text-3xl font-bold">FAQs</h1>
+        <h1 class="mb-6 ml-6 text-3xl font-bold">FAQs</h1>
       </div>
       <ul>
         <li>
-          <div class="question">
-            What is Frontend Mentor, and how will it help me?
+          <div class="question-container">
+            <p class="question">
+              What is Frontend Mentor, and how will it help me?
+            </p>
             <img src="../src/assets/icon-plus.svg" alt="open answer" />
           </div>
-          <div class="answer">
+          <div class="text-sm">
             Frontend Mentor offers realistic coding challenges to help
             developers improve their frontend coding skills with projects in
             HTML, CSS, and JavaScript. It's suitable for all levels and ideal
             for portfolio building.
           </div>
+          <hr class="line" />
         </li>
         <li>
-          <div class="question">
-            Is Frontend Mentor free?
-            <img src="../src/assets/icon-plus.svg" alt="open answer" />
+          <div class="question-container">
+            <p class="question py-2">Is Frontend Mentor free?</p>
+            <img
+              class="ml-[1.024rem]"
+              src="../src/assets/icon-plus.svg"
+              alt="open answer"
+            />
           </div>
           <div class="answer">
             Yes, Frontend Mentor offers both free and premium coding challenges,
             with the free option providing access to a range of projects
             suitable for all skill levels
           </div>
+          <hr class="line" />
         </li>
         <li>
-          <div class="question">
-            Can I use Frontend Mentor projects in my portfolio?
+          <div class="question-container">
+            <p class="question py-2">
+              Can I use Frontend Mentor projects in my portfolio?
+            </p>
             <img src="../src/assets/icon-plus.svg" alt="open answer" />
           </div>
           <div class="answer">
@@ -50,10 +60,13 @@
             portfolio. It's an excellent way to showcase your skills to
             potential employers!
           </div>
+          <hr class="line" />
         </li>
         <li>
-          <div class="question">
-            How can I get help if I'm stuck on a Frontend Mentor challenge?
+          <div class="question-container">
+            <p class="question pt-2">
+              How can I get help if I'm stuck on a challenge?
+            </p>
             <img src="../src/assets/icon-plus.svg" alt="open answer" />
           </div>
           <div class="answer">

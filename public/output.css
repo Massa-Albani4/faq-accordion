@@ -556,8 +556,44 @@ video {
   display: none;
 }
 
+.relative{
+  position: relative;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.top-20{
+  top: 5rem;
+}
+
+.top-14{
+  top: 3.5rem;
+}
+
+.top-28{
+  top: 7rem;
+}
+
+.top-24{
+  top: 6rem;
+}
+
+.mb-36{
+  margin-bottom: 9rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
 .ml-6{
   margin-left: 1.5rem;
+}
+
+.ml-\[1\.024rem\]{
+  margin-left: 1.024rem;
 }
 
 .flex{
@@ -566,6 +602,18 @@ video {
 
 .h-screen{
   height: 100vh;
+}
+
+.h-80{
+  height: 20rem;
+}
+
+.h-\[90\%\]{
+  height: 90%;
+}
+
+.h-\[812px\]{
+  height: 812px;
 }
 
 .w-\[87\%\]{
@@ -600,55 +648,58 @@ video {
   border-radius: 0.5rem;
 }
 
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
-}
-
 .bg-pink-100{
   --tw-bg-opacity: 1;
   background-color: hsl(275 100% 97% / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
 .bg-mobile{
   background-image: url('../src/assets/bg-mobile.svg');
 }
 
-.bg-auto{
-  background-size: auto;
+.bg-contain{
+  background-size: contain;
 }
 
 .bg-no-repeat{
   background-repeat: no-repeat;
 }
 
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.p-5{
+  padding: 1.25rem;
 }
 
-.py-7{
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-.py-6{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.pt-2{
+  padding-top: 0.5rem;
 }
 
 .font-body{
   font-family: Work Sans;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold{
@@ -660,19 +711,29 @@ video {
   color: hsl(292 42% 14% / var(--tw-text-opacity));
 }
 
-.question {
+.question-container {
   display: flex;
   flex-direction: row;
-  font-size: 1.25rem;
+}
+
+.question {
+  font-size: 1rem;
   font-weight: 600;
-  line-height: 1.6rem;
+  line-height: 1.3rem;
+  margin-right: 3rem;
 }
 
 .answer {
   display: none;
-  color: hsl(292, 16%, 49%);
+  color: hsl(293, 21%, 76%);
   font-weight: 400;
+  font-size: 0.875rem;
   line-height: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.line {
+  color: hsla(292, 42%, 14%, 0.1);
 }
 
 @media (min-width: 1280px){
