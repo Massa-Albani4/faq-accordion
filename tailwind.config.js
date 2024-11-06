@@ -6,6 +6,7 @@ module.exports = {
       white: "hsl(0, 0%, 100%)",
       "pink-100": "hsl(275, 100%, 97%)",
       "purple-800": "hsl(292, 42%, 14%)",
+      gray: "hsl(293, 21%, 67%)",
     },
     fontFamily: {
       body: ["Work Sans"],

@@ -564,24 +564,32 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-52{
-  margin-bottom: 13rem;
+.mb-\[10\.5rem\]{
+  margin-bottom: 10.5rem;
 }
 
 .ml-\[1\.08rem\]{
   margin-left: 1.08rem;
 }
 
-.ml-\[1\.5rem\]{
-  margin-left: 1.5rem;
+.ml-\[1\.4rem\]{
+  margin-left: 1.4rem;
 }
 
 .mt-36{
   margin-top: 9rem;
 }
 
-.mt-\[\.65rem\]{
-  margin-top: .65rem;
+.mt-\[\.2rem\]{
+  margin-top: .2rem;
+}
+
+.mt-\[\.6rem\]{
+  margin-top: .6rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
 }
 
 .flex{
@@ -591,6 +599,11 @@ video {
 .size-6{
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.size-8{
+  width: 2rem;
+  height: 2rem;
 }
 
 .w-\[87\%\]{
@@ -647,9 +660,9 @@ video {
   background-repeat: no-repeat;
 }
 
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .py-4{
@@ -669,8 +682,8 @@ video {
   font-family: Work Sans;
 }
 
-.text-\[1\.8rem\]{
-  font-size: 1.8rem;
+.text-\[1\.9rem\]{
+  font-size: 1.9rem;
 }
 
 .text-sm{
@@ -678,8 +691,17 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[2rem\]{
+  font-size: 2rem;
+}
+
 .font-bold{
   font-weight: 700;
+}
+
+.text-\[\#8F7793\]{
+  --tw-text-opacity: 1;
+  color: rgb(143 119 147 / var(--tw-text-opacity));
 }
 
 .text-purple-800{
@@ -693,10 +715,10 @@ video {
 }
 
 .question {
-  font-size: 0.94rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.2rem;
-  margin-right: 3.1rem;
+  margin-right: 2.7rem;
 }
 
 .answer {
