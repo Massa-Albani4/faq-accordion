@@ -560,12 +560,12 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.mb-5{
-  margin-bottom: 1.25rem;
+.mb-44{
+  margin-bottom: 11rem;
 }
 
-.mb-\[10\.5rem\]{
-  margin-bottom: 10.5rem;
+.mb-5{
+  margin-bottom: 1.25rem;
 }
 
 .ml-\[1\.08rem\]{
@@ -584,32 +584,8 @@ video {
   margin-top: .2rem;
 }
 
-.mt-\[\.6rem\]{
-  margin-top: .6rem;
-}
-
-.mt-\[\.65rem\]{
-  margin-top: .65rem;
-}
-
-.mt-\[\.7rem\]{
-  margin-top: .7rem;
-}
-
 .mt-\[\.75rem\]{
   margin-top: .75rem;
-}
-
-.mb-\[11rem\]{
-  margin-bottom: 11rem;
-}
-
-.mb-44{
-  margin-bottom: 11rem;
-}
-
-.mb-4{
-  margin-bottom: 1rem;
 }
 
 .flex{
@@ -621,19 +597,9 @@ video {
   height: 1.5rem;
 }
 
-.size-8{
-  width: 2rem;
-  height: 2rem;
-}
-
 .size-7{
   width: 1.75rem;
   height: 1.75rem;
-}
-
-.size-9{
-  width: 2.25rem;
-  height: 2.25rem;
 }
 
 .w-\[87\%\]{
@@ -700,16 +666,17 @@ video {
   padding-bottom: 1rem;
 }
 
-.pb-4{
-  padding-bottom: 1rem;
-}
-
-.pt-4{
-  padding-top: 1rem;
-}
-
-.pb-5{
+.py-5{
+  padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
+}
+
+.pt-6{
+  padding-top: 1.5rem;
 }
 
 .font-body{
@@ -733,9 +700,9 @@ video {
   font-weight: 400;
 }
 
-.text-\[\#9B819F\]{
+.text-\[\#8C6991\]{
   --tw-text-opacity: 1;
-  color: rgb(155 129 159 / var(--tw-text-opacity));
+  color: rgb(140 105 145 / var(--tw-text-opacity));
 }
 
 .text-purple-800{
@@ -743,21 +710,18 @@ video {
   color: hsl(292 42% 14% / var(--tw-text-opacity));
 }
 
-.text-\[\#8C6991\]{
-  --tw-text-opacity: 1;
-  color: rgb(140 105 145 / var(--tw-text-opacity));
-}
-
 .question-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .question {
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.2rem;
-  margin-right: 2.7rem;
+  margin-right: 2.2rem;
 }
 
 .answer {
@@ -766,11 +730,11 @@ video {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .line {
-  color: hsla(292, 42%, 14%, 0.1);
+  color: hsla(292, 42%, 14%, 0.041);
 }
 
 @media (min-width: 640px){

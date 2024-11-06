@@ -7,12 +7,14 @@
 .question-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .question {
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.2rem;
-  margin-right: 2.7rem;
+  margin-right: 2.2rem;
 }
 .answer {
   display: none;
@@ -20,8 +22,8 @@
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 .line {
-  color: hsla(292, 42%, 14%, 0.1);
+  color: hsla(292, 42%, 14%, 0.041);
 }
