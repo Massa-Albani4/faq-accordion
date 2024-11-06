@@ -556,44 +556,52 @@ video {
   display: none;
 }
 
-.relative{
-  position: relative;
+.mb-1{
+  margin-bottom: 0.25rem;
 }
 
-.top-24{
-  top: 6rem;
-}
-
-.mb-36{
-  margin-bottom: 9rem;
-}
-
-.mb-6{
-  margin-bottom: 1.5rem;
-}
-
-.ml-3{
-  margin-left: 0.75rem;
+.mb-4{
+  margin-bottom: 1rem;
 }
 
 .ml-6{
   margin-left: 1.5rem;
 }
 
-.ml-4{
-  margin-left: 1rem;
-}
-
-.ml-\[1\.1rem\]{
-  margin-left: 1.1rem;
-}
-
-.ml-\[1\.05rem\]{
-  margin-left: 1.05rem;
-}
-
 .ml-\[1\.08rem\]{
   margin-left: 1.08rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
+.mt-32{
+  margin-top: 8rem;
+}
+
+.mt-36{
+  margin-top: 9rem;
+}
+
+.mt-40{
+  margin-top: 10rem;
+}
+
+.mb-28{
+  margin-bottom: 7rem;
+}
+
+.mt-28{
+  margin-top: 7rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
 }
 
 .flex{
@@ -636,11 +644,6 @@ video {
   border-radius: 0.5rem;
 }
 
-.bg-pink-100{
-  --tw-bg-opacity: 1;
-  background-color: hsl(275 100% 97% / var(--tw-bg-opacity));
-}
-
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
@@ -650,8 +653,8 @@ video {
   background-image: url('../src/assets/bg-mobile.svg');
 }
 
-.bg-contain{
-  background-size: contain;
+.bg-auto{
+  background-size: auto;
 }
 
 .bg-no-repeat{
@@ -663,40 +666,41 @@ video {
   padding-right: 1.25rem;
 }
 
-.py-6{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
-.pb-6{
-  padding-bottom: 1.5rem;
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.pt-5{
-  padding-top: 1.25rem;
+.pb-4{
+  padding-bottom: 1rem;
 }
 
-.pb-5{
-  padding-bottom: 1.25rem;
+.pt-4{
+  padding-top: 1rem;
 }
 
 .font-body{
   font-family: Work Sans;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold{
@@ -714,9 +718,9 @@ video {
 }
 
 .question {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 600;
-  line-height: 1.3rem;
+  line-height: 1.1rem;
   margin-right: 2.7rem;
 }
 
@@ -733,8 +737,8 @@ video {
   color: hsla(292, 42%, 14%, 0.1);
 }
 
-@media (min-width: 1280px){
-  .xl\:bg-desktop{
-    background-image: url('../src/assets/bg-desktop.svg');
+@media (min-width: 640px){
+  .sm\:h-screen{
+    height: 100vh;
   }
 }
