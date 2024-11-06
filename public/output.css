@@ -560,8 +560,8 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.mb-4{
-  margin-bottom: 1rem;
+.mb-5{
+  margin-bottom: 1.25rem;
 }
 
 .mb-\[10\.5rem\]{
@@ -588,8 +588,28 @@ video {
   margin-top: .6rem;
 }
 
-.mb-5{
-  margin-bottom: 1.25rem;
+.mt-\[\.65rem\]{
+  margin-top: .65rem;
+}
+
+.mt-\[\.7rem\]{
+  margin-top: .7rem;
+}
+
+.mt-\[\.75rem\]{
+  margin-top: .75rem;
+}
+
+.mb-\[11rem\]{
+  margin-bottom: 11rem;
+}
+
+.mb-44{
+  margin-bottom: 11rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
 }
 
 .flex{
@@ -604,6 +624,16 @@ video {
 .size-8{
   width: 2rem;
   height: 2rem;
+}
+
+.size-7{
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.size-9{
+  width: 2.25rem;
+  height: 2.25rem;
 }
 
 .w-\[87\%\]{
@@ -678,12 +708,16 @@ video {
   padding-top: 1rem;
 }
 
+.pb-5{
+  padding-bottom: 1.25rem;
+}
+
 .font-body{
   font-family: Work Sans;
 }
 
-.text-\[1\.9rem\]{
-  font-size: 1.9rem;
+.text-\[2rem\]{
+  font-size: 2rem;
 }
 
 .text-sm{
@@ -691,22 +725,27 @@ video {
   line-height: 1.25rem;
 }
 
-.text-\[2rem\]{
-  font-size: 2rem;
-}
-
 .font-bold{
   font-weight: 700;
 }
 
-.text-\[\#8F7793\]{
+.font-normal{
+  font-weight: 400;
+}
+
+.text-\[\#9B819F\]{
   --tw-text-opacity: 1;
-  color: rgb(143 119 147 / var(--tw-text-opacity));
+  color: rgb(155 129 159 / var(--tw-text-opacity));
 }
 
 .text-purple-800{
   --tw-text-opacity: 1;
   color: hsl(292 42% 14% / var(--tw-text-opacity));
+}
+
+.text-\[\#8C6991\]{
+  --tw-text-opacity: 1;
+  color: rgb(140 105 145 / var(--tw-text-opacity));
 }
 
 .question-container {
@@ -723,7 +762,7 @@ video {
 
 .answer {
   display: none;
-  color: hsl(293, 21%, 76%);
+  color: hsl(292, 16%, 49%);
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.4rem;
