@@ -9,10 +9,10 @@
   flex-direction: row;
 }
 .question {
-  font-size: 0.875rem;
+  font-size: 0.94rem;
   font-weight: 600;
-  line-height: 1.1rem;
-  margin-right: 2.7rem;
+  line-height: 1.2rem;
+  margin-right: 3.1rem;
 }
 .answer {
   display: none;
