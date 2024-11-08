@@ -7,6 +7,9 @@ module.exports = {
       "pink-100": "hsl(275, 100%, 97%)",
       "purple-800": "hsl(292, 42%, 14%)",
     },
+    screens: {
+      lg: "1440px",
+    },
     fontFamily: {
       body: ["Work Sans"],
     },

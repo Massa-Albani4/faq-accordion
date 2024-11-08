@@ -561,10 +561,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mb-0{
-  margin-bottom: 0px;
-}
-
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -577,8 +573,8 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.ml-6{
-  margin-left: 1.5rem;
+.ml-\[1\.2rem\]{
+  margin-left: 1.2rem;
 }
 
 .ml-\[1\.4rem\]{
@@ -589,48 +585,16 @@ video {
   margin-top: 9rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
 .mt-\[\.2rem\]{
   margin-top: .2rem;
 }
 
 .mt-\[\.75rem\]{
   margin-top: .75rem;
-}
-
-.mt-5{
-  margin-top: 1.25rem;
-}
-
-.mb-4{
-  margin-bottom: 1rem;
-}
-
-.mb-2{
-  margin-bottom: 0.5rem;
-}
-
-.ml-5{
-  margin-left: 1.25rem;
-}
-
-.ml-4{
-  margin-left: 1rem;
-}
-
-.ml-\[1\.1rem\]{
-  margin-left: 1.1rem;
-}
-
-.ml-\[1\.13rem\]{
-  margin-left: 1.13rem;
-}
-
-.ml-\[1\.15rem\]{
-  margin-left: 1.15rem;
-}
-
-.ml-\[1\.2rem\]{
-  margin-left: 1.2rem;
 }
 
 .flex{
@@ -701,19 +665,14 @@ video {
   background-repeat: no-repeat;
 }
 
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .font-body{
@@ -747,6 +706,12 @@ video {
   color: hsl(292 42% 14% / var(--tw-text-opacity));
 }
 
+.shadow-xl{
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .question-container {
   display: flex;
   flex-direction: row;
@@ -774,8 +739,26 @@ video {
   color: hsla(292, 42%, 14%, 0.041);
 }
 
-@media (min-width: 640px){
-  .sm\:h-screen{
-    height: 100vh;
+@media (min-width: 1440px){
+  .lg\:mt-44{
+    margin-top: 11rem;
+  }
+
+  .lg\:w-2\/5{
+    width: 40%;
+  }
+
+  .lg\:bg-desktop{
+    background-image: url('../src/assets/bg-desktop.svg');
+  }
+
+  .lg\:px-9{
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+
+  .lg\:py-7{
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
   }
 }
