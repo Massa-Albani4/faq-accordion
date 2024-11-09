@@ -18,9 +18,8 @@
 }
 @media (min-width: 1440px) {
   .question {
-    font-size: 1.2rem;
-    margin-right: 0.5rem;
-    letter-spacing: -0.025em;
+    font-size: 1.15rem;
+    margin-right: 1rem;
   }
 }
 
