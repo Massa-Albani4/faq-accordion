@@ -717,8 +717,47 @@ video {
     margin-left: 1rem;
   }
 
+  .lg\:mt-1{
+    margin-top: 0.25rem;
+  }
+
   .lg\:mt-44{
     margin-top: 11rem;
+  }
+
+  .lg\:ml-8{
+    margin-left: 2rem;
+  }
+
+  .lg\:ml-9{
+    margin-left: 2.25rem;
+  }
+
+  .lg\:ml-\[2\.3rem\]{
+    margin-left: 2.3rem;
+  }
+
+  .lg\:ml-\[2\.4rem\]{
+    margin-left: 2.4rem;
+  }
+
+  .lg\:ml-\[2\.35rem\]{
+    margin-left: 2.35rem;
+  }
+
+  .lg\:size-10{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .lg\:size-9{
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  .lg\:size-8{
+    width: 2rem;
+    height: 2rem;
   }
 
   .lg\:w-\[42\%\]{
