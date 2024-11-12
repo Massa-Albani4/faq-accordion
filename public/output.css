@@ -679,22 +679,8 @@ video {
   font-size: 2rem;
 }
 
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .font-bold{
   font-weight: 700;
-}
-
-.font-normal{
-  font-weight: 400;
-}
-
-.text-\[\#8C6991\]{
-  --tw-text-opacity: 1;
-  color: rgb(140 105 145 / var(--tw-text-opacity));
 }
 
 .text-purple-800{
@@ -726,8 +712,8 @@ video {
     margin-bottom: 1rem;
   }
 
-  .lg\:mb-6{
-    margin-bottom: 1.5rem;
+  .lg\:mb-7{
+    margin-bottom: 1.75rem;
   }
 
   .lg\:ml-\[\.45rem\]{
@@ -756,14 +742,6 @@ video {
 
   .lg\:mt-6{
     margin-top: 1.5rem;
-  }
-
-  .lg\:mb-7{
-    margin-bottom: 1.75rem;
-  }
-
-  .lg\:mb-8{
-    margin-bottom: 2rem;
   }
 
   .lg\:size-10{
@@ -801,14 +779,6 @@ video {
     font-size: 3.75rem;
     line-height: 1;
   }
-
-  .lg\:text-\[1\.02rem\]{
-    font-size: 1.02rem;
-  }
-
-  .lg\:leading-\[1\.6rem\]{
-    line-height: 1.6rem;
-  }
 }
 
 .question-container {
@@ -844,6 +814,9 @@ video {
   .answer {
     font-size: 1.02rem;
     line-height: 1.6rem;
+    margin: 0.5rem 0 0 1.1rem;
+    width: 2rem;
+    height: 2rem;
   }
 }
 
