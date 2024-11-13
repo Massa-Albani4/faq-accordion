@@ -801,6 +801,11 @@ video {
   }
 }
 
+.question:hover {
+  color: hsl(281, 83%, 54%);
+  cursor: pointer;
+}
+
 .answer {
   display: none;
   color: hsl(292, 16%, 49%);
