@@ -40,6 +40,11 @@
     height: 2rem;
   }
 }
+
+.answer.active {
+  display: block;
+}
+
 .line {
   color: hsla(292, 42%, 14%, 0.041);
 }
