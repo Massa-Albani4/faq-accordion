@@ -556,6 +556,16 @@ video {
   display: none;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 1440px){
+  .container{
+    max-width: 1440px;
+  }
+}
+
 .absolute{
   position: absolute;
 }
@@ -820,8 +830,6 @@ video {
     font-size: 1.02rem;
     line-height: 1.6rem;
     margin: 0.5rem 0 0 1.1rem;
-    width: 2rem;
-    height: 2rem;
   }
 }
 
