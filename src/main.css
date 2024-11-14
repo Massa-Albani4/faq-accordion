@@ -32,13 +32,12 @@
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.4rem;
-  margin-bottom: 1.25rem;
 }
 @media (min-width: 1440px) {
   .answer {
     font-size: 1.02rem;
     line-height: 1.6rem;
-    margin: 0.5rem 0 0 1.1rem;
+    margin-bottom: 1rem;
   }
 }
 

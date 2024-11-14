@@ -574,12 +574,8 @@ video {
   position: relative;
 }
 
-.-top-2{
-  top: -0.5rem;
-}
-
-.left-\[27rem\]{
-  left: 27rem;
+.top-14{
+  top: 3.5rem;
 }
 
 .my-5{
@@ -705,25 +701,37 @@ video {
 }
 
 @media (min-width: 1440px){
+  .lg\:left-\[27rem\]{
+    left: 27rem;
+  }
+
   .lg\:top-40{
     top: 10rem;
   }
 
-  .lg\:my-6{
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+  .lg\:my-7{
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
   }
 
   .lg\:mb-0{
     margin-bottom: 0px;
   }
 
-  .lg\:mb-4{
-    margin-bottom: 1rem;
+  .lg\:mb-1{
+    margin-bottom: 0.25rem;
+  }
+
+  .lg\:mb-3{
+    margin-bottom: 0.75rem;
   }
 
   .lg\:mb-7{
     margin-bottom: 1.75rem;
+  }
+
+  .lg\:mb-8{
+    margin-bottom: 2rem;
   }
 
   .lg\:ml-\[\.45rem\]{
@@ -750,8 +758,12 @@ video {
     margin-top: 0.5rem;
   }
 
-  .lg\:mt-6{
-    margin-top: 1.5rem;
+  .lg\:mt-5{
+    margin-top: 1.25rem;
+  }
+
+  .lg\:mt-7{
+    margin-top: 1.75rem;
   }
 
   .lg\:size-10{
@@ -822,14 +834,13 @@ video {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.4rem;
-  margin-bottom: 1.25rem;
 }
 
 @media (min-width: 1440px) {
   .answer {
     font-size: 1.02rem;
     line-height: 1.6rem;
-    margin: 0.5rem 0 0 1.1rem;
+    margin-bottom: 1rem;
   }
 }
 
