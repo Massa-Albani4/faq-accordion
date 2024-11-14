@@ -14,9 +14,14 @@
   <body
     class="sm:h-screen relative flex items-center justify-center bg-pink-100 font-body"
   >
-    <img class="relative" src="../src/assets/bg-desktop.svg" alt="" />
+    <img
+      class="relative hidden lg:block"
+      src="../src/assets/bg-desktop.svg"
+      alt=""
+    />
+    <img class="relative lg:hidden" src="../src/assets/bg-mobile.svg" alt="" />
     <main
-      class="absolute top-14 lg:left-[27rem] flex w-[87%] flex-col items-center justify-center rounded-lg bg-white px-6 py-4 text-purple-800 shadow-xl lg:top-40 lg:w-[42%] lg:rounded-2xl lg:px-10 lg:pb-7 lg:pt-11"
+      class="absolute top-14 flex w-[87%] flex-col items-center justify-center rounded-lg bg-white px-6 py-4 text-purple-800 shadow-xl lg:left-[27rem] lg:top-40 lg:w-[42%] lg:rounded-2xl lg:px-10 lg:pb-7 lg:pt-11"
     >
       <div class="flex w-full flex-row items-start">
         <img
@@ -43,19 +48,18 @@
             />
           </div>
           <div class="answer" id="answer">
-            Frontend Mentor offers realistic coding challenges to help developers
-            improve their frontend coding skills with projects in HTML, CSS, and
-            JavaScript. It's suitable for all levels and ideal for portfolio
-            building.
+            Frontend Mentor offers realistic coding challenges to help
+            developers improve their frontend coding skills with projects in
+            HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+            for portfolio building.
           </div>
           <hr class="line" />
-          </div>
         </li>
         <li class="row-container">
           <div class="question-container">
             <p class="question my-5 lg:my-7">Is Frontend Mentor free?</p>
             <img
-              class="ml-[1.2rem] size-7 lg:ml-[15.7rem] lg:mb-1 mb-5 lg:size-8"
+              class="mb-5 ml-[1.2rem] size-7 lg:mb-1 lg:ml-[15.7rem] lg:size-8"
               src="../src/assets/icon-plus.svg"
               alt="open answer"
             />
@@ -87,11 +91,11 @@
         </li>
         <li class="row-container">
           <div class="question-container">
-            <p class="question mb-1 mt-5 lg:mt-7 lg:mb-3">
+            <p class="question mb-1 mt-5 lg:mb-3 lg:mt-7">
               How can I get help if I'm stuck on a challenge?
             </p>
             <img
-              class="mt-5 size-7 lg:mt-5 lg:ml-[3.4rem] lg:size-8"
+              class="mt-5 size-7 lg:ml-[3.4rem] lg:mt-5 lg:size-8"
               src="../src/assets/icon-plus.svg"
               alt="open answer"
             />
