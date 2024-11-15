@@ -8,7 +8,9 @@ module.exports = {
       "purple-800": "hsl(292, 42%, 14%)",
     },
     screens: {
+      md: "1024px",
       lg: "1440px",
+      xl: "1920px",
     },
     fontFamily: {
       body: ["Work Sans"],

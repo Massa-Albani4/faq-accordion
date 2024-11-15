@@ -560,9 +560,21 @@ video {
   width: 100%;
 }
 
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+
 @media (min-width: 1440px){
   .container{
     max-width: 1440px;
+  }
+}
+
+@media (min-width: 1920px){
+  .container{
+    max-width: 1920px;
   }
 }
 
@@ -704,6 +716,91 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+@media (min-width: 1024px){
+  .md\:top-\[7\.5rem\]{
+    top: 7.5rem;
+  }
+
+  .md\:mb-3{
+    margin-bottom: 0.75rem;
+  }
+
+  .md\:ml-0{
+    margin-left: 0px;
+  }
+
+  .md\:ml-5{
+    margin-left: 1.25rem;
+  }
+
+  .md\:mt-\[\.9rem\]{
+    margin-top: .9rem;
+  }
+
+  .md\:ml-4{
+    margin-left: 1rem;
+  }
+
+  .md\:ml-\[1\.1rem\]{
+    margin-left: 1.1rem;
+  }
+
+  .md\:mt-2{
+    margin-top: 0.5rem;
+  }
+
+  .md\:mt-1{
+    margin-top: 0.25rem;
+  }
+
+  .md\:mt-4{
+    margin-top: 1rem;
+  }
+
+  .md\:mt-5{
+    margin-top: 1.25rem;
+  }
+
+  .md\:mt-\[1\.2rem\]{
+    margin-top: 1.2rem;
+  }
+
+  .md\:block{
+    display: block;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+
+  .md\:size-7{
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  .md\:size-8{
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .md\:size-\[1\.9rem\]{
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+
+  .md\:w-\[42\%\]{
+    width: 42%;
+  }
+
+  .md\:rounded-xl{
+    border-radius: 0.75rem;
+  }
+
+  .md\:text-\[2\.5rem\]{
+    font-size: 2.5rem;
+  }
+}
+
 @media (min-width: 1440px){
   .lg\:left-\[27rem\]{
     left: 27rem;
@@ -752,6 +849,10 @@ video {
 
   .lg\:ml-\[3\.4rem\]{
     margin-left: 3.4rem;
+  }
+
+  .lg\:mt-0{
+    margin-top: 0px;
   }
 
   .lg\:mt-2{
@@ -824,10 +925,17 @@ video {
   margin-right: 2.2rem;
 }
 
+@media (min-width: 1024px) {
+  .question {
+    font-size: 0.8rem;
+    margin-right: 1.5rem;
+  }
+}
+
 @media (min-width: 1440px) {
   .question {
     font-size: 1.15rem;
-    margin-right: 1rem;
+    margin-right: 1.03rem;
   }
 }
 
@@ -843,6 +951,14 @@ video {
   font-size: 0.875rem;
   line-height: 1.4rem;
   margin-bottom: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .answer {
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (min-width: 1440px) {

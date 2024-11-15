@@ -16,10 +16,16 @@
   line-height: 1.2rem;
   margin-right: 2.2rem;
 }
+@media (min-width: 1024px) {
+  .question {
+    font-size: 0.8rem;
+    margin-right: 1.5rem;
+  }
+}
 @media (min-width: 1440px) {
   .question {
     font-size: 1.15rem;
-    margin-right: 1rem;
+    margin-right: 1.03rem;
   }
 }
 .question:hover {
@@ -34,6 +40,13 @@
   line-height: 1.4rem;
   margin-bottom: 1rem;
 }
+@media (min-width: 1024px) {
+  .answer {
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    margin-bottom: 1rem;
+  }
+}
 @media (min-width: 1440px) {
   .answer {
     font-size: 1.02rem;
@@ -41,7 +54,6 @@
     margin-bottom: 1rem;
   }
 }
-
 .answer.active {
   display: block;
 }

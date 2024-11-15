@@ -15,22 +15,26 @@
     class="sm:h-screen relative flex items-center justify-center bg-pink-100 font-body"
   >
     <img
-      class="relative hidden lg:block"
+      class="relative hidden md:block lg:block"
       src="../src/assets/bg-desktop.svg"
       alt=""
     />
-    <img class="relative lg:hidden" src="../src/assets/bg-mobile.svg" alt="" />
+    <img
+      class="relative md:hidden lg:hidden"
+      src="../src/assets/bg-mobile.svg"
+      alt=""
+    />
     <main
-      class="absolute top-36 flex w-[87%] flex-col items-center justify-center rounded-lg bg-white px-6 py-4 text-purple-800 shadow-xl lg:left-[27rem] lg:top-40 lg:w-[42%] lg:rounded-2xl lg:px-10 lg:pb-7 lg:pt-11"
+      class="absolute top-36 flex w-[87%] flex-col items-center justify-center rounded-lg bg-white px-6 py-4 text-purple-800 shadow-xl md:top-[7.5rem] md:w-[42%] md:rounded-xl lg:left-[27rem] lg:top-40 lg:w-[42%] lg:rounded-2xl lg:px-10 lg:pb-7 lg:pt-11"
     >
       <div class="flex w-full flex-row items-start">
         <img
-          class="mt-[.75rem] size-6 lg:mt-2 lg:size-10"
+          class="mt-[.75rem] size-6 md:mt-[1.2rem] md:size-7 lg:mt-2 lg:size-10"
           src="../src/assets/icon-star.svg"
           alt=""
         />
         <h1
-          class="mb-5 ml-[1.4rem] text-[2rem] font-bold lg:mb-8 lg:ml-[1.55rem] lg:text-6xl"
+          class="mb-5 ml-[1.4rem] text-[2rem] font-bold md:mb-3 md:ml-[1.1rem] md:mt-1 md:text-[2.5rem] lg:mb-8 lg:ml-[1.55rem] lg:mt-0 lg:text-6xl"
         >
           FAQs
         </h1>
@@ -42,7 +46,7 @@
               What is Frontend Mentor, and how will it help me?
             </p>
             <img
-              class="mb-5 mt-[.2rem] size-7 lg:mb-7 lg:ml-[1.1rem] lg:size-8"
+              class="mb-5 mt-[.2rem] size-7 md:ml-0 lg:mb-7 lg:ml-[1.1rem] lg:size-8"
               src="../src/assets/icon-plus.svg"
               alt="open answer"
             />
