@@ -961,6 +961,76 @@ video {
   }
 }
 
+@media (min-width: 1920px){
+  .xl\:left-\[30rem\]{
+    left: 30rem;
+  }
+
+  .xl\:top-56{
+    top: 14rem;
+  }
+
+  .xl\:left-\[39rem\]{
+    left: 39rem;
+  }
+
+  .xl\:left-\[36rem\]{
+    left: 36rem;
+  }
+
+  .xl\:left-\[35rem\]{
+    left: 35rem;
+  }
+
+  .xl\:left-\[34rem\]{
+    left: 34rem;
+  }
+
+  .xl\:top-64{
+    top: 16rem;
+  }
+
+  .xl\:top-60{
+    top: 15rem;
+  }
+
+  .xl\:left-\[35\.5rem\]{
+    left: 35.5rem;
+  }
+
+  .xl\:w-full{
+    width: 100%;
+  }
+
+  .xl\:w-\[36\%\]{
+    width: 36%;
+  }
+
+  .xl\:w-\[38\%\]{
+    width: 38%;
+  }
+
+  .xl\:w-\[35\%\]{
+    width: 35%;
+  }
+
+  .xl\:w-\[40\%\]{
+    width: 40%;
+  }
+
+  .xl\:rounded-3xl{
+    border-radius: 1.5rem;
+  }
+
+  .xl\:rounded-\[1\.2rem\]{
+    border-radius: 1.2rem;
+  }
+
+  .xl\:rounded-\[1\.1rem\]{
+    border-radius: 1.1rem;
+  }
+}
+
 .question-container {
   display: flex;
   flex-direction: row;
