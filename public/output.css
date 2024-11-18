@@ -875,6 +875,14 @@ video {
     margin-top: 1.75rem;
   }
 
+  .lg\:ml-5{
+    margin-left: 1.25rem;
+  }
+
+  .lg\:ml-6{
+    margin-left: 1.5rem;
+  }
+
   .lg\:block{
     display: block;
   }
@@ -929,54 +937,154 @@ video {
     top: 15rem;
   }
 
-  .xl\:mt-4{
-    margin-top: 1rem;
+  .xl\:my-9{
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
   }
 
-  .xl\:mt-3{
-    margin-top: 0.75rem;
+  .xl\:my-8{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
-  .xl\:mt-2{
-    margin-top: 0.5rem;
+  .xl\:mb-11{
+    margin-bottom: 2.75rem;
   }
 
-  .xl\:mt-\[\.6rem\]{
-    margin-top: .6rem;
+  .xl\:mb-5{
+    margin-bottom: 1.25rem;
+  }
+
+  .xl\:mb-9{
+    margin-bottom: 2.25rem;
+  }
+
+  .xl\:ml-8{
+    margin-left: 2rem;
+  }
+
+  .xl\:ml-\[\.7rem\]{
+    margin-left: .7rem;
+  }
+
+  .xl\:ml-\[1\.6rem\]{
+    margin-left: 1.6rem;
+  }
+
+  .xl\:ml-\[20\.6rem\]{
+    margin-left: 20.6rem;
+  }
+
+  .xl\:ml-\[4\.6rem\]{
+    margin-left: 4.6rem;
+  }
+
+  .xl\:mt-9{
+    margin-top: 2.25rem;
   }
 
   .xl\:mt-\[\.65rem\]{
     margin-top: .65rem;
   }
 
-  .xl\:size-14{
-    width: 3.5rem;
-    height: 3.5rem;
+  .xl\:ml-7{
+    margin-left: 1.75rem;
   }
 
-  .xl\:size-12{
-    width: 3rem;
-    height: 3rem;
+  .xl\:ml-9{
+    margin-left: 2.25rem;
   }
 
-  .xl\:size-\[3\.25rem\]{
-    width: 3.25rem;
-    height: 3.25rem;
+  .xl\:ml-\[21\.5rem\]{
+    margin-left: 21.5rem;
   }
 
-  .xl\:size-\[3\.4rem\]{
-    width: 3.4rem;
-    height: 3.4rem;
+  .xl\:ml-11{
+    margin-left: 2.75rem;
   }
 
-  .xl\:size-\[3\.1rem\]{
-    width: 3.1rem;
-    height: 3.1rem;
+  .xl\:ml-12{
+    margin-left: 3rem;
   }
 
-  .xl\:size-\[3\.2rem\]{
-    width: 3.2rem;
-    height: 3.2rem;
+  .xl\:ml-\[3\.1rem\]{
+    margin-left: 3.1rem;
+  }
+
+  .xl\:ml-\[3\.25rem\]{
+    margin-left: 3.25rem;
+  }
+
+  .xl\:ml-\[3\.2rem\]{
+    margin-left: 3.2rem;
+  }
+
+  .xl\:ml-\[3\.15rem\]{
+    margin-left: 3.15rem;
+  }
+
+  .xl\:ml-\[22rem\]{
+    margin-left: 22rem;
+  }
+
+  .xl\:ml-4{
+    margin-left: 1rem;
+  }
+
+  .xl\:ml-5{
+    margin-left: 1.25rem;
+  }
+
+  .xl\:ml-14{
+    margin-left: 3.5rem;
+  }
+
+  .xl\:ml-28{
+    margin-left: 7rem;
+  }
+
+  .xl\:ml-20{
+    margin-left: 5rem;
+  }
+
+  .xl\:ml-24{
+    margin-left: 6rem;
+  }
+
+  .xl\:mb-3{
+    margin-bottom: 0.75rem;
+  }
+
+  .xl\:mb-12{
+    margin-bottom: 3rem;
+  }
+
+  .xl\:mb-14{
+    margin-bottom: 3.5rem;
+  }
+
+  .xl\:mb-\[3\.25rem\]{
+    margin-bottom: 3.25rem;
+  }
+
+  .xl\:mb-\[3\.2rem\]{
+    margin-bottom: 3.2rem;
+  }
+
+  .xl\:mb-4{
+    margin-bottom: 1rem;
+  }
+
+  .xl\:mb-8{
+    margin-bottom: 2rem;
+  }
+
+  .xl\:mt-8{
+    margin-top: 2rem;
+  }
+
+  .xl\:mb-0{
+    margin-bottom: 0px;
   }
 
   .xl\:size-10{
@@ -984,9 +1092,9 @@ video {
     height: 2.5rem;
   }
 
-  .xl\:size-11{
-    width: 2.75rem;
-    height: 2.75rem;
+  .xl\:size-\[3\.2rem\]{
+    width: 3.2rem;
+    height: 3.2rem;
   }
 
   .xl\:w-\[40\%\]{
@@ -997,8 +1105,8 @@ video {
     width: 100%;
   }
 
-  .xl\:rounded-\[1\.1rem\]{
-    border-radius: 1.1rem;
+  .xl\:rounded-\[1\.3rem\]{
+    border-radius: 1.3rem;
   }
 
   .xl\:px-11{
@@ -1008,6 +1116,10 @@ video {
 
   .xl\:pb-9{
     padding-bottom: 2.25rem;
+  }
+
+  .xl\:pt-12{
+    padding-top: 3rem;
   }
 
   .xl\:text-7xl{
@@ -1045,7 +1157,7 @@ video {
 
 @media (min-width: 1920px) {
   .question {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     margin-right: 0.5em;
   }
 }
@@ -1084,7 +1196,7 @@ video {
   .answer {
     font-size: 1.3rem;
     line-height: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 }
 
